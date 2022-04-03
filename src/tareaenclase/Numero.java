@@ -1,15 +1,18 @@
 
 package tareaenclase;
 
+import java.util.Scanner;
+
 public class Numero {
-    double auxiliar = 1;
-      int n;
-      
-    public void Numero(){
+    
+    public static int Numero (int s){
+      int auxiliar = s;
      
-          for (int i = 2; i <= n; i++) {
+          for (int i = 1; i <= s; i++) {
     auxiliar *= i;  
+    } 
+        return auxiliar;
 }
-     }     
+
+    
 }
- 

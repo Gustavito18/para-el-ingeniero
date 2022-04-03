@@ -3,20 +3,20 @@ package tareaenclase;
 
 
 class Tablademultiplicar {
-    int Factorial, Factorial2;
+    int i = 0;
+    
    
-    public void Tablademultiplicar(){
+    public void Tablademultiplicar(int Factorial, int Factorial2){
        
     
-     for (int Factorial = 1; Factorial<=10; Factorial++)(
-             
-    System.out.println("Tabla de multiplicar del: " + Factorial + "--------"));
-     
-    for (int Factorial2 = 1: Factorial2 <=10; Factorial2++){
-        
-     System.out.println(Factorial+"*"+Factorial2+"="+(Factorial*Factorial2));
-}
+     for (int i = 1;  i<=10; i++){
+          System.out.println("Tabla de multiplicar del: " + i + "--------");
+          return;
      }
+
+     }
+    
     }
    
-}
+   
+
